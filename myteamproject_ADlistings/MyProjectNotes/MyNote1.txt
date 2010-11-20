@@ -1,0 +1,257 @@
+Task 1:
+
+1. Creating a Rails project called myteamproject_a
+
+C:\Ruby_on_Rails\InstantRails-2.0-win\rails_apps>rails myteamproject_a
+      create
+      create  app/controllers
+      create  app/helpers
+      create  app/models
+      create  app/views/layouts
+      create  config/environments
+      create  config/initializers
+      create  db
+      create  doc
+      create  lib
+      create  lib/tasks
+      create  log
+      create  public/images
+      create  public/javascripts
+      create  public/stylesheets
+      create  script/performance
+      create  script/process
+      create  test/fixtures
+      create  test/functional
+      create  test/integration
+      create  test/mocks/development
+      create  test/mocks/test
+      create  test/unit
+      create  vendor
+      create  vendor/plugins
+      create  tmp/sessions
+      create  tmp/sockets
+      create  tmp/cache
+      create  tmp/pids
+      create  Rakefile
+      create  README
+      create  app/controllers/application.rb
+      create  app/helpers/application_helper.rb
+      create  test/test_helper.rb
+      create  config/database.yml
+      create  config/routes.rb
+      create  public/.htaccess
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/boot.rb
+      create  config/environment.rb
+      create  config/environments/production.rb
+      create  config/environments/development.rb
+      create  config/environments/test.rb
+      create  script/about
+      create  script/console
+      create  script/destroy
+      create  script/generate
+      create  script/performance/benchmarker
+      create  script/performance/profiler
+      create  script/performance/request
+      create  script/process/reaper
+      create  script/process/spawner
+      create  script/process/inspector
+      create  script/runner
+      create  script/server
+      create  script/plugin
+      create  public/dispatch.rb
+      create  public/dispatch.cgi
+      create  public/dispatch.fcgi
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/index.html
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  public/images/rails.png
+      create  public/javascripts/prototype.js
+      create  public/javascripts/effects.js
+      create  public/javascripts/dragdrop.js
+      create  public/javascripts/controls.js
+      create  public/javascripts/application.js
+      create  doc/README_FOR_APP
+      create  log/server.log
+      create  log/production.log
+      create  log/development.log
+      create  log/test.log
+
+C:\Ruby_on_Rails\InstantRails-2.0-win\rails_apps>ls
+cookbook  myteamproject_a  typo-2.6.0
+
+C:\Ruby_on_Rails\InstantRails-2.0-win\rails_apps>cd myteamproject_a
+
+C:\Ruby_on_Rails\InstantRails-2.0-win\rails_apps\myteamproject_a>ls
+README    app     db   lib  public  test  vendor
+Rakefile  config  doc  log  script  tmp
+
+
+2. Creating the model
+
+C:\Ruby_on_Rails\InstantRails-2.0-win\rails_apps\myteamproject_a>ruby script/gen
+erate model Classfied
+      exists  app/models/
+      exists  test/unit/
+      exists  test/fixtures/
+      create  app/models/classfied.rb
+      create  test/unit/classfied_test.rb
+      create  test/fixtures/classfieds.yml
+      create  db/migrate
+      create  db/migrate/001_create_classfieds.rb
+
+C:\Ruby_on_Rails\InstantRails-2.0-win\rails_apps\myteamproject_a>ls
+README    app     db   lib  public  test  vendor
+Rakefile  config  doc  log  script  tmp
+
+C:\Ruby_on_Rails\InstantRails-2.0-win\rails_apps\myteamproject_a>cd app
+
+C:\Ruby_on_Rails\InstantRails-2.0-win\rails_apps\myteamproject_a\app>cd ..
+
+C:\Ruby_on_Rails\InstantRails-2.0-win\rails_apps\myteamproject_a>ruby script/des
+troy model Classfied
+    notempty  db/migrate
+    notempty  db
+          rm  db/migrate/001_create_classfieds.rb
+          rm  test/fixtures/classfieds.yml
+          rm  test/unit/classfied_test.rb
+          rm  app/models/classfied.rb
+       rmdir  test/fixtures
+    notempty  test
+       rmdir  test/unit
+    notempty  test
+       rmdir  app/models
+    notempty  app
+
+C:\Ruby_on_Rails\InstantRails-2.0-win\rails_apps\myteamproject_a>ruby script/gen
+erate model Classified
+      create  app/models/
+      create  test/unit/
+      create  test/fixtures/
+      create  app/models/classified.rb
+      create  test/unit/classified_test.rb
+      create  test/fixtures/classifieds.yml
+      create  db/migrate
+      create  db/migrate/001_create_classifieds.rb
+
+
+3. Modifying the Schema using Migrations
+
+Notes: 
+
+a. replacing the default code in our 001_create_classifieds.rb migration file with
+the following and save our changes:
+
+class CreateClassifieds < ActiveRecord::Migration
+  def self.up
+    create_table :classifieds do |t|
+      t.column :title, :string
+      t.column :price, :float
+      t.column :location, :string
+      t.column :description, :text
+      t.column :email, :string
+      t.column :created_at, :datetime
+      t.column :updated_at, :datetime
+    end
+  end
+
+  def self.down
+    drop_table :classifieds
+  end
+end
+
+b. Using rake to migrate our data
+
+C:\Ruby_on_Rails\InstantRails-2.0-win\rails_apps\myteamproject_a>rake db:migrate
+ 
+(in C:/Ruby_on_Rails/InstantRails-2.0-win/rails_apps/myteamproject_a)
+== 1 CreateClassifieds: migrating =============================================
+-- create_table(:classifieds)
+   -> 0.0000s
+== 1 CreateClassifieds: migrated (0.0000s) ====================================
+
+c. Using the schema if you want to find out what the SQL query looks like. The schema
+should be as follows:
+
+# This file is auto-generated from the current state of the database. Instead of editing this file, 
+# please use the migrations feature of ActiveRecord to incrementally modify your database, and
+# then regenerate this schema definition.
+#
+# Note that this schema.rb definition is the authoritative source for your database schema. If you need
+# to create the application database on another system, you should be using db:schema:load, not running
+# all the migrations from scratch. The latter is a flawed and unsustainable approach (the more migrations
+# you'll amass, the slower it'll run and the greater likelihood for issues).
+#
+# It's strongly recommended to check this file into your version control system.
+
+ActiveRecord::Schema.define(:version => 1) do
+
+  create_table "classifieds", :force => true do |t|
+    t.string   "title"
+    t.float    "price"
+    t.string   "location"
+    t.text     "description"
+    t.string   "email"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+end
+
+4. Creating the controller
+
+a.
+
+C:\Ruby_on_Rails\InstantRails-2.0-win\rails_apps\myteamproject_a>ruby script/gen
+erate controller Classified
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/classified
+      exists  test/functional/
+      create  app/controllers/classified_controller.rb
+      create  test/functional/classified_controller_test.rb
+      create  app/helpers/classified_helper.rb
+
+b. modify the classified_controller.rb file as follows. It is located under the folder
+app/controllers.
+
+class ClassifiedController < ApplicationController
+  def list
+    @classifieds = classified.find(:all)
+  end
+  
+  def show
+    @classified = classified.find(params[:id])
+  end
+  
+  def new
+  end
+  
+  def create
+  end
+  
+  def edit
+  end
+  
+  def update
+  end
+ 
+  def delete
+  end
+  
+end
+
+
+5. creating the views
+
+a. open up a browser and go to http://localhost:3000/classified/list. Rails let you know that you need to create the view file for the new method. Each method you define in the controller needs to have a corresponding RHTML file, with the same
+name as the method, to display the data that the method is collecting.
+
+b. create a file called list.rhtml and save it to app/views/classified. You can add codes you want to add.
+
+c. Refresh your browser. You should see a single line that says there are no ads in the system and an Add new ad link. If not, check your code syntax to make sure that
+everything looks exactly as it does here.

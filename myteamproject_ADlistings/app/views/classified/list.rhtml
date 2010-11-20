@@ -1,0 +1,20 @@
+<ul id="categories"> 
+	<% Category.find(:all).each do |c| %> 
+	<li><%= link_to c.name, :controller => "category", :action => "show", :id => c.id %></li> 
+	<% end %> 
+</ul> 
+
+
+<% if @classifieds.blank? %> 
+	<p>There are not any ads currently in the system.</p> 
+<% else %> 
+	<p>These are the current classified ads in our system</p>
+	
+	<ul id="classifieds"> 
+		<%= render :partial => 'classified', :collection => @classifieds %> 
+	</ul> 
+<% end %> 
+
+<% if logged_in? %> 
+        <p><%= link_to "Add new ad", {:action => 'new' }%></p> 
+<% end %>

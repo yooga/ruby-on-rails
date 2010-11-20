@@ -1,0 +1,25 @@
+<h3>With a Yoople! Account, post your ads for free.</h3> 
+<%= error_messages_for 'user' %> 
+<% form_for :user, :url => { :action => 'signup' } do |f| %> 
+<fieldset>
+<p> 
+  Login: <br />
+  <%= f.text_field :login %>
+</p>
+<p>
+  Password: <br />
+  <%= f.password_field :password %>
+</p>
+<p>
+  Your Email: <br />
+  <%= f.text_field :email %>
+</p>
+<p>
+  Confirm Email: <br />
+  <%= f.text_field :email_confirmation %>
+</p>
+<p>
+  <%= submit_tag 'Create my account' -%> 
+</p>
+</fieldset>
+<% end %> 

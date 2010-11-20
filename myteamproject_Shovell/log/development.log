@@ -1,0 +1,1229 @@
+# Logfile created on Sun Nov 07 13:26:01 -0800 2010
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-07 13:26:29) [GET]
+  Session ID: 7f961e0bf32969230c915790e60a0671
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/user/signup" with {:method=>:get}):
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-07 13:26:35) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--e908c8dc39eaade3063ea8c01bbae741e6fdaf64
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/shovell" with {:method=>:get}):
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-07 13:26:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--e908c8dc39eaade3063ea8c01bbae741e6fdaf64
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/story" with {:method=>:get}):
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-07 13:27:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--e908c8dc39eaade3063ea8c01bbae741e6fdaf64
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSQLite3::SQLException: no such table: stories: SELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: stories: SELECT * FROM stories   WHERE (votes_count >= 5)  ORDER BY id DESC):
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract_adapter.rb:150:in `log'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:345:in `catch_schema_changes'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/sqlite_adapter.rb:256:in `select'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:53:in `select_all'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:74:in `cache_sql'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:53:in `select_all'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:532:in `find_by_sql'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1233:in `find_every'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:503:in `find'
+    /app/controllers/stories_controller.rb:33:in `fetch_stories'
+    /app/controllers/stories_controller.rb:4:in `index'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:159:in `process_client'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `each'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:158:in `process_client'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `initialize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `new'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:285:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `initialize'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `new'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel.rb:268:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:282:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `each'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/configurator.rb:281:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/lib/mongrel/command.rb:212:in `run'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:489:in `load'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/mongrel.rb:64
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering c:/Ruby_on_Rails/instantrails-2.0-win/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+  [4;36;1mSQL (0.000000)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.016000)[0m   [0mCREATE TABLE schema_info (version integer)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mINSERT INTO schema_info (version) VALUES(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+Migrating to CreateStories (1)
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such table: stories: DROP TABLE stories[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCREATE TABLE stories ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) DEFAULT NULL, "link" varchar(255) DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+  [4;35;1mSQL (0.016000)[0m   [0mUPDATE schema_info SET version = 1[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+Migrating to CreateVotes (2)
+  [4;35;1mSQL (0.000000)[0m   [0mCREATE TABLE votes ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "story_id" integer DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+  [4;36;1mSQL (0.015000)[0m   [0;1mUPDATE schema_info SET version = 2[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_info[0m
+Migrating to CreateUsers (3)
+  [4;36;1mSQL (0.000000)[0m   [0;1mCREATE TABLE users ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) DEFAULT NULL, "password" varchar(255) DEFAULT NULL, "name" varchar(255) DEFAULT NULL, "email" varchar(255) DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+  [4;35;1mSQL (0.016000)[0m   [0mALTER TABLE stories ADD "user_id" integer[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mVACUUM[0m
+  [4;35;1mSQL (0.015000)[0m   [0mALTER TABLE votes ADD "user_id" integer[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mVACUUM[0m
+  [4;35;1mSQL (0.016000)[0m   [0mUPDATE schema_info SET version = 3[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+Migrating to AddCounterCacheToStories (4)
+  [4;35;1mSQL (0.000000)[0m   [0mALTER TABLE stories ADD "votes_count" integer DEFAULT 0[0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mVACUUM[0m
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories [0m
+  [4;36;1mSQL (0.015000)[0m   [0;1mUPDATE schema_info SET version = 4[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_info[0m
+Migrating to AddDescriptionToStories (5)
+  [4;36;1mSQL (0.000000)[0m   [0;1mALTER TABLE stories ADD "description" text[0m
+  [4;35;1mSQL (0.016000)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mUPDATE schema_info SET version = 5[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_info[0m
+Migrating to ActsAsTaggableMigration (6)
+  [4;36;1mSQL (0.016000)[0m   [0;1mCREATE TABLE tags ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) DEFAULT NULL) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mCREATE TABLE taggings ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tag_id" integer DEFAULT NULL, "taggable_id" integer DEFAULT NULL, "taggable_type" varchar(255) DEFAULT NULL, "created_at" datetime DEFAULT NULL) [0m
+  [4;36;1mSQL (0.015000)[0m   [0;1mCREATE INDEX "index_taggings_on_tag_id" ON taggings ("tag_id")[0m
+  [4;35;1mSQL (0.016000)[0m   [0mCREATE INDEX "index_taggings_on_taggable_id_and_taggable_type" ON taggings ("taggable_id", "taggable_type")[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mUPDATE schema_info SET version = 6[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT * FROM schema_info[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000000)[0m   [0mPRAGMA index_list(stories)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mPRAGMA index_list(taggings)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mPRAGMA index_info('index_taggings_on_taggable_id_and_taggable_type')[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mPRAGMA index_info('index_taggings_on_tag_id')[0m
+  [4;35;1mSQL (0.000000)[0m   [0mPRAGMA index_list(tags)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mPRAGMA index_list(users)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mPRAGMA index_list(votes)[0m
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-07 13:28:30) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--e908c8dc39eaade3063ea8c01bbae741e6fdaf64
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-07 13:28:37) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--e908c8dc39eaade3063ea8c01bbae741e6fdaf64
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories]
+
+
+Processing StoriesController#bin (for 127.0.0.1 at 2010-11-07 13:28:40) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--e908c8dc39eaade3063ea8c01bbae741e6fdaf64
+  Parameters: {"action"=>"bin", "controller"=>"stories"}
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count < 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/bin]
+
+
+Processing StoriesController#new (for 127.0.0.1 at 2010-11-07 13:28:41) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--e908c8dc39eaade3063ea8c01bbae741e6fdaf64
+  Parameters: {"action"=>"new", "controller"=>"stories"}
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [#<ActionController::Filters::ClassMethods::SymbolFilter:0x4d53d70 @filter=:login_required>] rendered_or_redirected.
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/stories/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-07 13:28:41) [GET]
+  Session ID: BAh7BzoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXciCmZsYXNoSUM6J0FjdGlv%0AbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA%3D--cac20d4c5c86cb6ba72420e6793a9b2cddd49d18
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing StoriesController#bin (for 127.0.0.1 at 2010-11-07 13:28:43) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlNDA3MTMxZjEzOWMwMWU2ODY3ZTg4NTMzNTI4NWQ5%0AMmQ6DnJldHVybl90byIRL3N0b3JpZXMvbmV3IgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a9fd434627db0c2880b36e117c880a001e66c686
+  Parameters: {"action"=>"bin", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count < 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/bin]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-07 13:28:45) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlNDA3MTMxZjEzOWMwMWU2ODY3ZTg4NTMzNTI4NWQ5%0AMmQ6DnJldHVybl90byIRL3N0b3JpZXMvbmV3IgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a9fd434627db0c2880b36e117c880a001e66c686
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mStory Load (0.015000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (100%) | 200 OK [http://localhost/stories]
+
+
+Processing StoriesController#bin (for 127.0.0.1 at 2010-11-07 13:28:47) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlNDA3MTMxZjEzOWMwMWU2ODY3ZTg4NTMzNTI4NWQ5%0AMmQ6DnJldHVybl90byIRL3N0b3JpZXMvbmV3IgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a9fd434627db0c2880b36e117c880a001e66c686
+  Parameters: {"action"=>"bin", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count < 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/bin]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-07 13:28:48) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlNDA3MTMxZjEzOWMwMWU2ODY3ZTg4NTMzNTI4NWQ5%0AMmQ6DnJldHVybl90byIRL3N0b3JpZXMvbmV3IgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a9fd434627db0c2880b36e117c880a001e66c686
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-07 13:28:52) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlNDA3MTMxZjEzOWMwMWU2ODY3ZTg4NTMzNTI4NWQ5%0AMmQ6DnJldHVybl90byIRL3N0b3JpZXMvbmV3IgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a9fd434627db0c2880b36e117c880a001e66c686
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-07 13:55:28) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlNDA3MTMxZjEzOWMwMWU2ODY3ZTg4NTMzNTI4NWQ5%0AMmQ6DnJldHVybl90byIRL3N0b3JpZXMvbmV3IgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a9fd434627db0c2880b36e117c880a001e66c686
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/shovell" with {:method=>:get}):
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/bin/mongrel_rails:19:in `load'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/bin/mongrel_rails:19
+
+Rendering c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-07 13:55:40) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mStory Load (0.015000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (100%) | 200 OK [http://localhost/]
+
+
+Processing StoriesController#bin (for 127.0.0.1 at 2010-11-07 13:55:50) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"bin", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count < 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/bin]
+
+
+Processing StoriesController#new (for 127.0.0.1 at 2010-11-07 13:55:52) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"new", "controller"=>"stories"}
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [#<ActionController::Filters::ClassMethods::SymbolFilter:0x4db1c7c @filter=:login_required>] rendered_or_redirected.
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/stories/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-07 13:55:52) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-07 13:56:00) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-07 13:56:06) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories]
+
+
+Processing StoriesController#new (for 127.0.0.1 at 2010-11-07 13:56:09) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"new", "controller"=>"stories"}
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [#<ActionController::Filters::ClassMethods::SymbolFilter:0x4c7a340 @filter=:login_required>] rendered_or_redirected.
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/stories/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-07 13:56:09) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing StoriesController#bin (for 127.0.0.1 at 2010-11-07 13:56:14) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"bin", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count < 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/bin]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-07 13:56:15) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories]
+
+
+Processing StoriesController#bin (for 127.0.0.1 at 2010-11-07 13:56:17) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"bin", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count < 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/bin]
+
+
+Processing StoriesController#new (for 127.0.0.1 at 2010-11-07 13:56:19) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"new", "controller"=>"stories"}
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [#<ActionController::Filters::ClassMethods::SymbolFilter:0x4ceed58 @filter=:login_required>] rendered_or_redirected.
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/stories/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-07 13:56:19) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-11-07 13:56:37) [POST]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"commit"=>"login", "authenticity_token"=>"1a075e80545445a2b64facde3562fb9e8854476d", "action"=>"create", "controller"=>"sessions", "password"=>"yoople", "login"=>"yoople"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."password" = 'yoople' AND users."login" = 'yoople') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-07 13:56:51) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/shovell" with {:method=>:get}):
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/bin/mongrel_rails:19:in `load'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/bin/mongrel_rails:19
+
+Rendering c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-07 13:56:54) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/shovell" with {:method=>:get}):
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/bin/mongrel_rails:19:in `load'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/bin/mongrel_rails:19
+
+Rendering c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-07 13:56:58) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-07 13:57:05) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/index" with {:method=>:get}):
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/bin/mongrel_rails:19:in `load'
+    c:/RUBY_O~1/INSTAN~1.0-W/ruby/bin/mongrel_rails:19
+
+Rendering c:/RUBY_O~1/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-07 13:57:09) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing StoriesController#new (for 127.0.0.1 at 2010-11-07 13:58:06) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"new", "controller"=>"stories"}
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [#<ActionController::Filters::ClassMethods::SymbolFilter:0x4cb8d0c @filter=:login_required>] rendered_or_redirected.
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/stories/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-07 13:58:06) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing StoriesController#bin (for 127.0.0.1 at 2010-11-07 13:58:09) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"bin", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count < 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/bin]
+
+
+Processing StoriesController#bin (for 127.0.0.1 at 2010-11-07 13:58:10) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"bin", "controller"=>"stories"}
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count < 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/bin]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-07 13:58:12) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-07 13:58:16) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-11-07 13:59:49) [POST]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTQwNzEz%0AMWYxMzljMDFlNjg2N2U4ODUzMzUyODVkOTJkIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b1bebd040bce9e55d241a698e0f6e097ae36d2d8
+  Parameters: {"commit"=>"login", "authenticity_token"=>"1a075e80545445a2b64facde3562fb9e8854476d", "action"=>"create", "controller"=>"sessions", "password"=>"sekrit", "login"=>"patrick"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."password" = 'sekrit' AND users."login" = 'patrick') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 10:39:45) [GET]
+  Session ID: fe0905e8ce5ecc6d731ec2ed2a9838e3
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mStory Load (0.016000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.21900 (4 reqs/sec) | Rendering: 0.17200 (78%) | DB: 0.01600 (7%) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-13 10:39:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--e908c8dc39eaade3063ea8c01bbae741e6fdaf64
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03100 (65%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing StoriesController#new (for 127.0.0.1 at 2010-11-13 10:39:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMTY2OGM3NWY2N2VjZWM2MjI2MWY5MzYxNTAyYzQw%0ANjAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--9532fd02051db2d91659b55d6a72cdaa26b68042
+  Parameters: {"action"=>"new", "controller"=>"stories"}
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [#<ActionController::Filters::ClassMethods::SymbolFilter:0x4df5cec @filter=:login_required>] rendered_or_redirected.
+Completed in 0.01600 (62 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/stories/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-13 10:39:59) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTE2Njhj%0ANzVmNjdlY2VjNjIyNjFmOTM2MTUwMmM0MDYwIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--aeaecb2f556c2348a68c24ff2a29726f04d6f5d1
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing StoriesController#new (for 127.0.0.1 at 2010-11-13 10:40:03) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTE2Njhj%0ANzVmNjdlY2VjNjIyNjFmOTM2MTUwMmM0MDYwIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--aeaecb2f556c2348a68c24ff2a29726f04d6f5d1
+  Parameters: {"action"=>"new", "controller"=>"stories"}
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [#<ActionController::Filters::ClassMethods::SymbolFilter:0x4d62884 @filter=:login_required>] rendered_or_redirected.
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/stories/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-13 10:40:03) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTE2Njhj%0ANzVmNjdlY2VjNjIyNjFmOTM2MTUwMmM0MDYwIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--aeaecb2f556c2348a68c24ff2a29726f04d6f5d1
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing StoriesController#bin (for 127.0.0.1 at 2010-11-13 10:40:06) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTE2Njhj%0ANzVmNjdlY2VjNjIyNjFmOTM2MTUwMmM0MDYwIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--aeaecb2f556c2348a68c24ff2a29726f04d6f5d1
+  Parameters: {"action"=>"bin", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count < 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/bin]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 10:40:08) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTE2Njhj%0ANzVmNjdlY2VjNjIyNjFmOTM2MTUwMmM0MDYwIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--aeaecb2f556c2348a68c24ff2a29726f04d6f5d1
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-13 10:40:10) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTE2Njhj%0ANzVmNjdlY2VjNjIyNjFmOTM2MTUwMmM0MDYwIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--aeaecb2f556c2348a68c24ff2a29726f04d6f5d1
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-11-13 10:40:28) [POST]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTE2Njhj%0ANzVmNjdlY2VjNjIyNjFmOTM2MTUwMmM0MDYwIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--aeaecb2f556c2348a68c24ff2a29726f04d6f5d1
+  Parameters: {"commit"=>"login", "authenticity_token"=>"1be9a70f39e355e2bfef4bf493121b7fe474b12b", "action"=>"create", "controller"=>"sessions", "password"=>"yooga", "login"=>"yooga"}
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM users WHERE (users."password" = 'yooga' AND users."login" = 'yooga') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.04600 (21 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 10:42:16) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTE2Njhj%0ANzVmNjdlY2VjNjIyNjFmOTM2MTUwMmM0MDYwIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--aeaecb2f556c2348a68c24ff2a29726f04d6f5d1
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 16:15:46) [GET]
+  Session ID: 0a3dc016d6bc51542451d26a6ec06dc1
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 21:34:46) [GET]
+  Session ID: 7e408c8e4440fbfa09688b4fe031417c
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-13 21:34:50) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--e908c8dc39eaade3063ea8c01bbae741e6fdaf64
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing StoriesController#new (for 127.0.0.1 at 2010-11-13 21:34:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNTg1YzNjZTU0NDUyMzI4Nzc4NzRlN2NhODAxMjdl%0AZDEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--49f23b92d802776d7a52eaf25bcd46bb445db44d
+  Parameters: {"action"=>"new", "controller"=>"stories"}
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [#<ActionController::Filters::ClassMethods::SymbolFilter:0x4df6688 @filter=:login_required>] rendered_or_redirected.
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/stories/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-13 21:34:55) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTU4NWMz%0AY2U1NDQ1MjMyODc3ODc0ZTdjYTgwMTI3ZWQxIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--e99e9e5b24f6eff057904b80e8b7273c8f04761e
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing StoriesController#new (for 127.0.0.1 at 2010-11-13 21:35:48) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTU4NWMz%0AY2U1NDQ1MjMyODc3ODc0ZTdjYTgwMTI3ZWQxIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--e99e9e5b24f6eff057904b80e8b7273c8f04761e
+  Parameters: {"action"=>"new", "controller"=>"stories"}
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [#<ActionController::Filters::ClassMethods::SymbolFilter:0x4d63414 @filter=:login_required>] rendered_or_redirected.
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/stories/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-13 21:35:49) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvIhEvc3Rvcmllcy9uZXc6DGNzcmZfaWQiJTU4NWMz%0AY2U1NDQ1MjMyODc3ODc0ZTdjYTgwMTI3ZWQxIgpmbGFzaElDOidBY3Rpb25D%0Ab250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--e99e9e5b24f6eff057904b80e8b7273c8f04761e
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 21:41:42) [GET]
+  Session ID: 82bdf014e2ac2004850b20e32f66c8e0
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-13 21:41:44) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--e908c8dc39eaade3063ea8c01bbae741e6fdaf64
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-11-13 21:42:17) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--4a0e9d350916c2741ebbbc62cc45dc8e6620b93f
+  Parameters: {"commit"=>"login", "authenticity_token"=>"a1fc7444a6e472e866a0b354be9cea8cf40428e4", "action"=>"create", "controller"=>"sessions", "password"=>"sekrit", "login"=>"patrick"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."password" = 'sekrit' AND users."login" = 'patrick') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session]
+  [4;36;1mUser Create (0.016000)[0m   [0;1mINSERT INTO users ("name", "updated_at", "login", "password", "created_at", "email") VALUES('Yongxin Luo', '2010-11-13 21:56:07', 'luo', 'luo', '2010-11-13 21:56:07', 'aluo@yoople.com')[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-11-13 21:56:44) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--4a0e9d350916c2741ebbbc62cc45dc8e6620b93f
+  Parameters: {"commit"=>"login", "authenticity_token"=>"a1fc7444a6e472e866a0b354be9cea8cf40428e4", "action"=>"create", "controller"=>"sessions", "password"=>"luo", "login"=>"luo"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."login" = 'luo' AND users."password" = 'luo') LIMIT 1[0m
+Redirected to http://localhost:3000/stories
+Completed in 0.01500 (66 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/session]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 21:56:45) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--a21cfac08219dd50a9b981fd7dbfe24b7ccee491
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories on Sat Nov 13 21:56:45 -0800 2010
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories]
+
+
+Processing StoriesController#new (for 127.0.0.1 at 2010-11-13 21:56:51) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--a21cfac08219dd50a9b981fd7dbfe24b7ccee491
+  Parameters: {"action"=>"new", "controller"=>"stories"}
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories/new on Sat Nov 13 21:56:51 -0800 2010
+Rendering template within layouts/application
+Rendering stories/new
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.09300 (74%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/new]
+
+
+Processing StoriesController#bin (for 127.0.0.1 at 2010-11-13 21:56:57) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--a21cfac08219dd50a9b981fd7dbfe24b7ccee491
+  Parameters: {"action"=>"bin", "controller"=>"stories"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories/bin on Sat Nov 13 21:56:57 -0800 2010
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count < 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/bin]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 21:57:00) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--a21cfac08219dd50a9b981fd7dbfe24b7ccee491
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories on Sat Nov 13 21:57:00 -0800 2010
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.06200 (79%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories]
+
+
+Processing StoriesController#new (for 127.0.0.1 at 2010-11-13 21:57:02) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--a21cfac08219dd50a9b981fd7dbfe24b7ccee491
+  Parameters: {"action"=>"new", "controller"=>"stories"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories/new on Sat Nov 13 21:57:02 -0800 2010
+Rendering template within layouts/application
+Rendering stories/new
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/new]
+
+
+Processing StoriesController#create (for 127.0.0.1 at 2010-11-13 21:57:43) [POST]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--a21cfac08219dd50a9b981fd7dbfe24b7ccee491
+  Parameters: {"commit"=>"Save changes", "story"=>{"name"=>"home for rent", "description"=>"fyi", "tag_list"=>"ty", "link"=>"homeforrent"}, "authenticity_token"=>"a1fc7444a6e472e866a0b354be9cea8cf40428e4", "action"=>"create", "controller"=>"stories"}
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories on Sat Nov 13 21:57:44 -0800 2010
+  [4;36;1mStory Create (0.000000)[0m   [0;1mINSERT INTO stories ("name", "updated_at", "votes_count", "description", "link", "user_id", "created_at") VALUES('home for rent', '2010-11-13 21:57:44', 0, 'fyi', 'homeforrent', 1, '2010-11-13 21:57:44')[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM users WHERE (users."id" = 1) [0m
+  [4;36;1mVote Create (0.000000)[0m   [0;1mINSERT INTO votes ("updated_at", "story_id", "user_id", "created_at") VALUES('2010-11-13 21:57:44', 1, 1, '2010-11-13 21:57:44')[0m
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (stories."id" = 1) [0m
+  [4;36;1mStory Update (0.000000)[0m   [0;1mUPDATE stories SET "votes_count" = "votes_count" + 1 WHERE ("id" = 1) [0m
+  [4;35;1mVote Load (0.000000)[0m   [0mSELECT * FROM votes WHERE (votes.story_id = 1) [0m
+  [4;36;1mVote Update (0.000000)[0m   [0;1mUPDATE votes SET "created_at" = '2010-11-13 21:57:44', "story_id" = 1, "updated_at" = '2010-11-13 21:57:44', "user_id" = 1 WHERE "id" = 1[0m
+  [4;35;1mTag Load (0.016000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = 'Story') AND (taggings.taggable_id = 1)) [0m
+  [4;36;1mTag Load (0.000000)[0m   [0;1mSELECT * FROM tags WHERE (name LIKE 'ty') LIMIT 1[0m
+  [4;35;1mTag Load (0.000000)[0m   [0mSELECT * FROM tags WHERE (tags.name = 'ty') LIMIT 1[0m
+  [4;36;1mTag Create (0.000000)[0m   [0;1mINSERT INTO tags ("name") VALUES('ty')[0m
+  [4;35;1mTagging Create (0.000000)[0m   [0mINSERT INTO taggings ("tag_id", "taggable_type", "taggable_id", "created_at") VALUES(1, 'Story', 1, '2010-11-13 21:57:44')[0m
+Redirected to http://localhost:3000/stories
+Completed in 0.09400 (10 reqs/sec) | DB: 0.01600 (17%) | 302 Found [http://localhost/stories]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 21:57:44) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiH1N0b3J5IHN1Ym1pc3Npb24gc3Vj%0AY2VlZGVkBjoKQHVzZWR7BjsIVA%3D%3D--00a393f9085fdabcf23e7edf500c4bd1abe81707
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories on Sat Nov 13 21:57:44 -0800 2010
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 21:57:48) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--a21cfac08219dd50a9b981fd7dbfe24b7ccee491
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories on Sat Nov 13 21:57:48 -0800 2010
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories]
+
+
+Processing StoriesController#bin (for 127.0.0.1 at 2010-11-13 21:57:50) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--a21cfac08219dd50a9b981fd7dbfe24b7ccee491
+  Parameters: {"action"=>"bin", "controller"=>"stories"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories/bin on Sat Nov 13 21:57:50 -0800 2010
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count < 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) [0m
+  [4;35;1mTag Load (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = 'Story') AND (taggings.taggable_id = 1)) [0m
+Rendered stories/_story (0.03100)
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/bin]
+
+
+Processing StoriesController#show (for 127.0.0.1 at 2010-11-13 21:57:52) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--a21cfac08219dd50a9b981fd7dbfe24b7ccee491
+  Parameters: {"action"=>"show", "id"=>"1-home-for-rent", "controller"=>"stories"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories/1-home-for-rent on Sat Nov 13 21:57:52 -0800 2010
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (stories."id" = 1) [0m
+Rendering template within layouts/application
+Rendering stories/show
+  [4;36;1mVote Load (0.000000)[0m   [0;1mSELECT * FROM votes WHERE (votes.story_id = 1) ORDER BY id DESC LIMIT 3[0m
+Rendered votes/_vote (0.03100)
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM users WHERE (users."id" = 1) [0m
+  [4;36;1mTag Load (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = 'Story') AND (taggings.taggable_id = 1)) [0m
+Rendered tags/_tag (0.00000)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.09400 (75%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/1-home-for-rent]
+
+
+Processing TagsController#show (for 127.0.0.1 at 2010-11-13 21:57:59) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--a21cfac08219dd50a9b981fd7dbfe24b7ccee491
+  Parameters: {"action"=>"show", "id"=>"ty", "controller"=>"tags"}
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /tags/ty on Sat Nov 13 21:57:59 -0800 2010
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT DISTINCT stories.* FROM stories INNER JOIN taggings stories_taggings ON stories_taggings.taggable_id = stories.id AND stories_taggings.taggable_type = 'Story' INNER JOIN tags stories_tags ON stories_tags.id = stories_taggings.tag_id WHERE ((stories_tags.name LIKE 'ty')) [0m
+Rendering template within layouts/application
+Rendering tags/show
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM users WHERE (users."id" = 1) [0m
+  [4;36;1mTag Load (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = 'Story') AND (taggings.taggable_id = 1)) [0m
+Rendered stories/_story (0.00000)
+Completed in 0.09300 (10 reqs/sec) | Rendering: 0.01500 (16%) | DB: 0.00000 (0%) | 200 OK [http://localhost/tags/ty]
+
+
+Processing StoriesController#show (for 127.0.0.1 at 2010-11-13 21:58:05) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--a21cfac08219dd50a9b981fd7dbfe24b7ccee491
+  Parameters: {"action"=>"show", "id"=>"1-home-for-rent", "controller"=>"stories"}
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories/1-home-for-rent on Sat Nov 13 21:58:05 -0800 2010
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (stories."id" = 1) [0m
+Rendering template within layouts/application
+Rendering stories/show
+  [4;35;1mVote Load (0.000000)[0m   [0mSELECT * FROM votes WHERE (votes.story_id = 1) ORDER BY id DESC LIMIT 3[0m
+Rendered votes/_vote (0.00000)
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) [0m
+  [4;35;1mTag Load (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = 'Story') AND (taggings.taggable_id = 1)) [0m
+Rendered tags/_tag (0.01500)
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.03100 (28%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/1-home-for-rent]
+
+
+Processing StoriesController#bin (for 127.0.0.1 at 2010-11-13 21:58:13) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--a21cfac08219dd50a9b981fd7dbfe24b7ccee491
+  Parameters: {"action"=>"bin", "controller"=>"stories"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories/bin on Sat Nov 13 21:58:13 -0800 2010
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count < 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) [0m
+  [4;35;1mTag Load (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = 'Story') AND (taggings.taggable_id = 1)) [0m
+Rendered stories/_story (0.01500)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01500 (31%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/bin]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 21:58:16) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--a21cfac08219dd50a9b981fd7dbfe24b7ccee491
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories on Sat Nov 13 21:58:17 -0800 2010
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-11-13 21:58:22) [DELETE]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--a21cfac08219dd50a9b981fd7dbfe24b7ccee491
+  Parameters: {"authenticity_token"=>"a1fc7444a6e472e866a0b354be9cea8cf40428e4", "_method"=>"delete", "action"=>"destroy", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /session on Sat Nov 13 21:58:22 -0800 2010
+Rendering template within layouts/application
+Rendering sessions/destroy
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 21:58:25) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWQwIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVyOjpGbGFz%0AaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--15cc3fb705bbddf2b8ad70cb6abb93226d6809c6
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories]
+
+
+Processing StoriesController#new (for 127.0.0.1 at 2010-11-13 21:58:27) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWQwIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVyOjpGbGFz%0AaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--15cc3fb705bbddf2b8ad70cb6abb93226d6809c6
+  Parameters: {"action"=>"new", "controller"=>"stories"}
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [#<ActionController::Filters::ClassMethods::SymbolFilter:0x4d3baf4 @filter=:login_required>] rendered_or_redirected.
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/stories/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-13 21:58:27) [GET]
+  Session ID: BAh7CToMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWQwOg5yZXR1cm5fdG8iES9zdG9yaWVzL25ldyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--524095e23fe879a98b6d65d0e337231be510e72d
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing StoriesController#bin (for 127.0.0.1 at 2010-11-13 21:58:31) [GET]
+  Session ID: BAh7CToMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWQwOg5yZXR1cm5fdG8iES9zdG9yaWVzL25ldyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--524095e23fe879a98b6d65d0e337231be510e72d
+  Parameters: {"action"=>"bin", "controller"=>"stories"}
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count < 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM users WHERE (users."id" = 1) [0m
+  [4;36;1mTag Load (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = 'Story') AND (taggings.taggable_id = 1)) [0m
+Rendered stories/_story (0.06200)
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.07800 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/bin]
+
+
+Processing StoriesController#show (for 127.0.0.1 at 2010-11-13 21:58:36) [GET]
+  Session ID: BAh7CToMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWQwOg5yZXR1cm5fdG8iES9zdG9yaWVzL25ldyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--524095e23fe879a98b6d65d0e337231be510e72d
+  Parameters: {"action"=>"show", "id"=>"1-home-for-rent", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (stories."id" = 1) [0m
+Rendering template within layouts/application
+Rendering stories/show
+  [4;36;1mVote Load (0.000000)[0m   [0;1mSELECT * FROM votes WHERE (votes.story_id = 1) ORDER BY id DESC LIMIT 3[0m
+Rendered votes/_vote (0.00000)
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM users WHERE (users."id" = 1) [0m
+  [4;36;1mTag Load (0.000000)[0m   [0;1mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = 'Story') AND (taggings.taggable_id = 1)) [0m
+Rendered tags/_tag (0.00000)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03100 (65%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/1-home-for-rent]
+
+
+Processing StoriesController#new (for 127.0.0.1 at 2010-11-13 21:59:02) [GET]
+  Session ID: BAh7CToMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWQwOg5yZXR1cm5fdG8iES9zdG9yaWVzL25ldyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--524095e23fe879a98b6d65d0e337231be510e72d
+  Parameters: {"action"=>"new", "controller"=>"stories"}
+Redirected to http://localhost:3000/session/new
+Filter chain halted as [#<ActionController::Filters::ClassMethods::SymbolFilter:0x4d6299c @filter=:login_required>] rendered_or_redirected.
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/stories/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-13 21:59:02) [GET]
+  Session ID: BAh7CToMY3NyZl9pZCIlZDhhMzE0MDQzYWE0NGMzZmMzOTY0ODNlZGFhOWM2%0AYzE6DHVzZXJfaWQwOg5yZXR1cm5fdG8iES9zdG9yaWVzL25ldyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--524095e23fe879a98b6d65d0e337231be510e72d
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 22:04:23) [GET]
+  Session ID: 0552d0bec706fe60c02cdf0d4470d379
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 22:04:30) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--e908c8dc39eaade3063ea8c01bbae741e6fdaf64
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories]
+
+
+Processing StoriesController#bin (for 127.0.0.1 at 2010-11-13 22:04:32) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--e908c8dc39eaade3063ea8c01bbae741e6fdaf64
+  Parameters: {"action"=>"bin", "controller"=>"stories"}
+  [4;35;1mStory Load (0.000000)[0m   [0mSELECT * FROM stories WHERE (votes_count < 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) [0m
+  [4;35;1mTag Load (0.000000)[0m   [0mSELECT tags.* FROM tags INNER JOIN taggings ON tags.id = taggings.tag_id WHERE ((taggings.taggable_type = 'Story') AND (taggings.taggable_id = 1)) [0m
+Rendered stories/_story (0.01600)
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/bin]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-11-13 22:05:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--e908c8dc39eaade3063ea8c01bbae741e6fdaf64
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session/new]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-11-13 22:05:27) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZThkN2JiODE4ZWFiZTAzNDdlNzIxYzdkZjU5ZDg2%0AODIiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--338eedeccedef64f21be21bd64539ac43b3fde1f
+  Parameters: {"commit"=>"login", "authenticity_token"=>"899e922f1f177f34e5948944eb18aad453f82c76", "action"=>"create", "controller"=>"sessions", "password"=>"luo", "login"=>"luo"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."login" = 'luo' AND users."password" = 'luo') LIMIT 1[0m
+Redirected to http://localhost:3000/stories
+Completed in 0.04700 (21 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/session]
+
+
+Processing StoriesController#index (for 127.0.0.1 at 2010-11-13 22:05:27) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZThkN2JiODE4ZWFiZTAzNDdlNzIxYzdkZjU5ZDg2%0AODI6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--1584d32c337e25ee4bd2085b819efb8bbcea7624
+  Parameters: {"action"=>"index", "controller"=>"stories"}
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories on Sat Nov 13 22:05:27 -0800 2010
+  [4;36;1mStory Load (0.000000)[0m   [0;1mSELECT * FROM stories WHERE (votes_count >= 5) ORDER BY id DESC[0m
+Rendering template within layouts/application
+Rendering stories/index
+Completed in 0.09300 (10 reqs/sec) | Rendering: 0.01500 (16%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories]
+
+
+Processing StoriesController#new (for 127.0.0.1 at 2010-11-13 22:05:41) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZThkN2JiODE4ZWFiZTAzNDdlNzIxYzdkZjU5ZDg2%0AODI6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--1584d32c337e25ee4bd2085b819efb8bbcea7624
+  Parameters: {"action"=>"new", "controller"=>"stories"}
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /stories/new on Sat Nov 13 22:05:41 -0800 2010
+Rendering template within layouts/application
+Rendering stories/new
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/stories/new]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-11-13 22:06:48) [DELETE]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZThkN2JiODE4ZWFiZTAzNDdlNzIxYzdkZjU5ZDg2%0AODI6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxh%0Ac2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--1584d32c337e25ee4bd2085b819efb8bbcea7624
+  Parameters: {"authenticity_token"=>"899e922f1f177f34e5948944eb18aad453f82c76", "_method"=>"delete", "action"=>"destroy", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+luo requested /session on Sat Nov 13 22:06:48 -0800 2010
+Rendering template within layouts/application
+Rendering sessions/destroy
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/session]
