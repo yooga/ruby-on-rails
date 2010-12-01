@@ -3,9 +3,9 @@ module ApplicationHelper
 
   def can_edit?(classified) 
     if classified.user == session[:user] 
-      return false 
+      return true 
     else 
-      return true
+      return false
     end 
   end 
   
