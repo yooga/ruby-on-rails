@@ -1,0 +1,34 @@
+<h1>Post New classified</h1> 
+
+<%= error_messages_for 'classified' %>
+
+<% form_for :classified do |f| %>
+<p>
+  Title: <br />
+  <%= f.text_field :title %>
+</p>
+<p>
+  Price: <br />
+  <%= f.text_field :price %>
+</p>
+<p>
+  Location: <br />
+  <%= f.text_field :location %>
+</p>
+<p>
+  Email: <br/>
+  <%= f.text_field :email %>
+</p>
+<p>
+  Description: <br />
+  <%= f.text_area :description %>
+</p>
+<p>
+  Category: <br />
+  <%= collection_select(:classified, :category_id, @categories,:id, :name) %>
+</p>
+
+<%= submit_tag "submit" %>
+<% end %>
+
+<p><%= link_to 'Back', {:action => 'list'} %>

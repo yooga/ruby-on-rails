@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+	<meta http-equiv="Content-Language" content="en-us" /> 
+	<title>My Ruby on Rail Project: Classified ADs</title> 
+	<%= stylesheet_link_tag "style" %> 
+</head> 
+
+<body id="rails"> 
+<div id="container"> 
+	<div id="header"> 
+                <br />
+		<h1>Welcome to Rails on Yoople</h1><br />
+		<h3>A website created by Yongxin Luo</h3>
+                <h3>Email: yongxin91@yahoo.com</h3>
+	</div> 
+
+	<div id="content"> 
+		<%= yield -%> 
+	</div> 
+
+	<div id="sidebar"> 
+		<% unless session[:user] %> 
+		
+		<% form_for :user, :url => { :controller => 'user', :action => 'login' } do |f| %> 
+		<p>
+                  Login:<br /> 
+		  <%= f.text_field :login %>
+                </p>
+		<p>
+                  Password:<br /> 
+		  <%= f.password_field :password %> 
+                </p>
+                <p>
+		  <%= submit_tag 'Login' %> 
+                </p>
+		<% end %> 
+
+		Need an account?  <%= link_to 'Signup today!', :controller => 'user', :action => 'signup' %> 
+		<% else %> 
+			<p><%= "Welcome #{session[:user].login}!" -%></p> 
+			<p><%= link_to 'Logout', :controller => 'user', :action => 'logout' -%></p> 
+		<% end %> 
+
+        </div> 
+</div> 
+</body> 
+</html> 

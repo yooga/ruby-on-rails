@@ -1,0 +1,44 @@
+1. 
+
+Andy@DELLDATA c:/Ruby187/bin/myproject (master)
+$ ruby -v
+ruby 1.8.7 (2010-08-16 patchlevel 302) [i386-mingw32]
+
+Andy@DELLDATA c:/Ruby187/bin/myproject (master)
+$ rails -v
+Rails 2.3.8
+
+Andy@DELLDATA c:/Ruby187/bin/myproject (master)
+$ gem -v
+1.3.7
+
+Andy@DELLDATA c:/Ruby187/bin/myproject (master)
+$ heroku list
+coin67-myproject
+
+2.
+
+=> make sure the version of ROR is the same as the above.
+
+=> using ruby script/generate to generate models and controllers.
+
+=> generate migration files in the folder ~\migrate.
+
+=> using git to push the files to the Heroku:
+
+git init
+git add --all
+git commit -m "your comment"
+git push heroku master
+
+=> using heroku rake db:migrate to do rails migrations
+
+=> using heroku open 
+   
+or 
+
+type the following URL
+
+http://coin67-myproject.heroku.com/classified/list
+
+to open the application
